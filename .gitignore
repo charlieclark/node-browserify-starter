@@ -1,0 +1,20 @@
+.DS_Store
+.sass
+.sass-cache
+.vagrant
+.tmp
+.sublime-project
+.sublime-workspace
+bower_components
+node_modules
+release/*
+!release/.gitkeep
+# Alias for the server
+source/public/docs
+
+source/bin/*.mov
+source/bin/*.mxf
+source/bin/*.mp4
+
+source/resources/video/*
+!source/resources/video/.gitkeep

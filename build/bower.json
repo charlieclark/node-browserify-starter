@@ -1,0 +1,21 @@
+{
+  "name": "build",
+  "version": "0.0.0",
+  "homepage": "https://github.com/B-Reel-US/google-maps-api-hub",
+  "authors": [
+    "Charlie Clark <clarkcharlie03@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}
