@@ -22,7 +22,7 @@ app.use(bodyParser.json({
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(methodOverride());
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public'))); 
+app.use(express.static(path.join(__dirname, 'public')));
 
 /* GET home page. */
 router.get('/', render);
@@ -34,7 +34,6 @@ var fullUrl = "http://example.com";
 var baseData = {
 	title: "Starter",
 	description: "Super simple starter",
-	celeb_data: celeb_data,
 	image: fullUrl + "/assets/images/facebook.png",
 	frameGenerated : false,
 	prod: process.env.ENV === 'prod',
